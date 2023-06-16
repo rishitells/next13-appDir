@@ -1,10 +1,10 @@
 "use client";
 
-import { Suspense, useState, useTransition, startTransition } from "react";
+import { Suspense, useState } from "react";
 
 import { DataLoader } from "@/app/page";
 
-export function ClientComponent() {
+export function Collapsible() {
   const [showAwaitedElement, setShowAwaitedElement] = useState(false);
 
   return (

@@ -1,4 +1,4 @@
-import { ClientComponent } from "@/app/client-component";
+import { Collapsible } from "@/app/collapsible";
 
 async function loadSlowData(): Promise<string> {
   return new Promise((resolve) => {
@@ -17,7 +17,7 @@ export async function DataLoader() {
 export default function Home() {
   return (
     <main>
-      <ClientComponent />
+      <Collapsible />
     </main>
   );
 }
